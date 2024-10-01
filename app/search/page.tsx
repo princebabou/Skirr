@@ -1,4 +1,3 @@
-import { searchPosts } from '@/lib/sanity'
 import PostList from '@/components/PostList'
 
 export default async function Search({
