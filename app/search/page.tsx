@@ -12,7 +12,7 @@ export default async function Search({
   return (
     <div>
       <h1 className="text-4xl font-bold mb-8">Search Results for &quot;{query}&quot;</h1>
-      <PostList posts={posts} />
+      <PostList />
     </div>
   )
 }
