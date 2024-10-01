@@ -5,6 +5,7 @@ import FeaturedPost from '@/components/FeaturedPost'
 
 export default async function Home() {
   const posts = await getPosts(1, 10)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const featuredPost = posts[0] // Assuming the first post is the featured one
 
   return (

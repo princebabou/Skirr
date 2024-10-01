@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { MessageSquare, User, Send, AlertCircle, Loader2, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import React from "react";
 
 type Comment = {
   _id: string;

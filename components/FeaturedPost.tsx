@@ -3,13 +3,14 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { urlForImage } from '@/sanity/lib/image'
-import { CalendarIcon, ClockIcon, TagIcon } from 'lucide-react'
+import { CalendarIcon, ClockIcon } from 'lucide-react'
 import { PostSkeleton } from './PostSkeleton'
 
 type Post = {
   _id: string
   title: string
   slug: { current: string }
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   mainImage: any
   excerpt: string
   publishedAt: string

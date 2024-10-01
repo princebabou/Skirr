@@ -3,6 +3,7 @@ import { urlForImage } from '@/sanity/lib/image'
 
 export const portableTextComponents = {
   types: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     image: ({ value }: any) => {
       if (!value?.asset?._ref) {
         return null
