@@ -1,4 +1,11 @@
-import { client } from './client'
+import { createClient } from 'next-sanity'
+
+export const client = createClient({
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
+  apiVersion: "2023-05-03",
+  useCdn: false
+})
 
 export async function getPosts(page = 1, limit = 10) {
   const start = (page - 1) * limit
@@ -12,9 +19,12 @@ export async function getPosts(page = 1, limit = 10) {
       mainImage,
       excerpt,
       publishedAt,
-      readingTime,
       "categories": categories[]->title
-    }`
+    }`,
+    {},
+    {
+      cache: 'no-store' 
+    }
   )
 }
 
@@ -27,10 +37,12 @@ export async function getPost(slug: string) {
       mainImage,
       body,
       publishedAt,
-      readingTime,
       "categories": categories[]->title
     }`,
-    { slug }
+    { slug },
+    {
+      cache: 'no-store' 
+    }
   )
 }
 
@@ -43,8 +55,11 @@ export async function searchPosts(query: string) {
       mainImage,
       excerpt,
       publishedAt,
-      readingTime
+      "categories": categories[]->title
     }`,
-    { params: { query: `*${query}*` } }
+    {params :{ query: `*${query}*` }},
+    {
+      cache: 'no-store' 
+    }
   )
 }
