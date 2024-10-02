@@ -52,6 +52,6 @@ export async function searchPosts(query: string) {
       mainImage,
       excerpt
     }`,
-    { query }
+    {params : { query}}
   )
 }

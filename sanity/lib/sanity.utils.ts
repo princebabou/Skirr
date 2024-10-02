@@ -45,6 +45,6 @@ export async function searchPosts(query: string) {
       publishedAt,
       readingTime
     }`,
-    { query: `*${query}*` }
+    { params: { query: `*${query}*` } }
   )
 }
