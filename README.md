@@ -27,7 +27,7 @@ Install (But like, only if you're bored) 💻
 
 If for some reason you feel compelled to clone this masterpiece of a blog, here’s the easy-peasy command to do that:
 
-git clone https://github.com/yourusername/skirr
+git clone https://github.com/princebabou/skirr
 
 cd skirr
 
