@@ -10,6 +10,7 @@ type Post = {
   _id: string
   title: string
   slug: { current: string }
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   mainImage: any
   excerpt: string
   publishedAt: string

@@ -24,10 +24,10 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">The Story</h2>
                 <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-6">
-                Welcome to Skirr, my personal corner of the web where I share insights, stories, and reflections on technology, coding, and the digital world. I created Skirr to be a space for exploring my journey as a developer, discussing industry trends, and offering tips and resources for fellow tech enthusiasts. Whether you're looking to dive into programming or just enjoy the latest in tech culture, I hope Skirr becomes your go-to destination for fresh and thoughtful content.
+                Welcome to Skirr, my personal corner of the web where I share insights, stories, and reflections on technology, coding, and the digital world. I created Skirr to be a space for exploring my journey as a developer, discussing industry trends, and offering tips and resources for fellow tech enthusiasts. Whether you&apos;re looking to dive into programming or just enjoy the latest in tech culture, I hope Skirr becomes your go-to destination for fresh and thoughtful content.
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-8">
-                 Skirr's mission is simple: to inspire and inform, helping you navigate the complexities of the modern world with confidence and curiosity.
+                 Skirr&apos;s mission is simple: to inspire and inform, helping you navigate the complexities of the modern world with confidence and curiosity.
                 </p>
               </div>
               <div>
