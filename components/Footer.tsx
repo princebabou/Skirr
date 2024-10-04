@@ -71,7 +71,7 @@ export default function Footer() {
                 <ul className="mt-4 space-y-4">
                   {['About', 'Blog', 'Jobs', 'Press', 'Partners'].map((item) => (
                     <li key={item}>
-                      <a href="#" className="text-base text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-300">
+                      <a href="/blog" className="text-base text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-300">
                         {item}
                       </a>
                     </li>
