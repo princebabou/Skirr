@@ -7,7 +7,7 @@ import { Menu, X, Sun, Moon } from 'lucide-react'
 import { useTheme } from '@/context/ThemeContext'
 
 const navigation = [
-  { name: 'Home', href: '/' },
+  { name: 'Home', href: '/blog' },
   { name: 'Blog', href: '/blog' },
   { name: 'About', href: '/about' },
   { name: 'Categories', href: '/categories' },
