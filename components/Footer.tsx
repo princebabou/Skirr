@@ -14,19 +14,19 @@ export default function Footer() {
               Exploring the latest insights, stories, and innovations in the digital world.
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300">
+              <a href="https://www.facebook.com/ganza.ella/" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300">
                 <span className="sr-only">Facebook</span>
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300">
+              <a href="https://www.instagram.com/___b.a.b.o.u._/" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300">
                 <span className="sr-only">Instagram</span>
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300">
+              <a href="https://x.com/manzi_prince00" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300">
                 <span className="sr-only">Twitter</span>
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300">
+              <a href="https://www.linkedin.com/in/manzi-babou-1b661b294/" className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300">
                 <span className="sr-only">LinkedIn</span>
                 <Linkedin className="h-6 w-6" />
               </a>
